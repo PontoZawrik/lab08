@@ -1,6 +1,6 @@
 #include "main.h"
 
-void task01() {
+void task03() {
 	int n = getRandomInt(10, 15);
 	double* array = new double[n];
 
@@ -24,7 +24,7 @@ void task01() {
 		}
 	}
 
-	cout << "New array: \n";
+	cout << "\nNew array: \n";
 	for (int i = 0; i < m; i++) {
 		cout << newArray[i] << " ";
 	}
